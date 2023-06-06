@@ -193,3 +193,194 @@ footer{
     text-align: right;
     padding: 5px 10px;
 }
+
+/* *************** PAGE ZONING **********************/
+
+/* --- Zoning 1 --- */
+.maquette{
+   width: 80%;
+   margin: auto;
+}
+
+section div{
+    text-align: center;
+}
+
+.main{
+    height: 500px;
+    display: flex;
+}
+
+.header{
+    background-color: #f7f39a;
+    height: 50px;
+}
+.gauche{
+    background-color: #a3de82;
+    width: 20%;
+}
+.droite{
+    background-color: #38817a;
+    width: 80%;
+}
+
+/* --- Zoning 2 --- */
+
+.maquette2{
+    width: 60%;
+    margin: auto;
+ }
+
+.aside{
+    background-color: #10828c;
+    width: 25%;
+}
+.milieu{
+    background-color: #0d3046;
+    width: 50%;
+}
+
+/* --- Zoning 3 --- */
+
+.gauche2{
+    background-color: #a3de82;
+    width: 50%;
+}
+.droite2{
+    background-color: #38817a;
+    width: 50%;
+}
+
+.b_footer{
+    background-color: #f7f39a;
+    height: 50px;
+}
+
+/* --- Zoning 4 --- */
+
+.main_sect4{
+    background-color: #10828c;
+    width: 100%;
+    border: 20px solid white;
+}
+
+.nav_sect4{
+    height: 50px;
+    background-color: #6dafb5;
+}
+
+.ss_nav_sect4{
+    border: 5px solid #a3de82;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* --- Zoning 5 --- */
+
+.sect_border{
+    border: 2px solid black;
+}
+.z1,
+.z2{
+    display: flex;
+    width: 100%;
+}
+.z1 div,
+.z2 div{
+    width: 50%;
+    height: 200px;
+}
+
+.sect5{
+    border: 20px solid white;  
+}
+
+.zone1{
+    background-color: #d7bc6b;
+}
+
+.zone2{
+    background-color: #fce389;
+}
+
+/* --- Zoning 6 --- */
+
+.section6{
+    color: white;
+}
+
+.haut_6,
+.ab_s6,
+.lettre_s6{
+    display: flex;
+}
+
+.haut_6{
+    height: 150px;
+}
+
+.haut_s6_aside{
+    background-color: #223462;
+    width: 25%;
+}
+
+.haut_s6_milieu{
+    background-color: #3e578f;
+    width: 50%;
+}
+
+.menu_s6{
+    background-color: #10828c;
+    height: 30px;
+}
+
+.main_s6{
+    height: 500px;
+    display: flex;
+}
+
+.zone_gauche_s6{
+    width: 20%;
+    background-color: #2c3e50;
+}
+
+.zone_droite_s6{
+    width: 80%;
+}
+
+.a{
+    width: 50%;
+    background-color: #c0c4cd; 
+}
+.b{
+    width: 50%;
+    background-color: #223462; 
+}
+
+.ab_s6{
+    height: 200px;
+}
+
+.slide_s6{
+    height: 200px;
+    background-color: #314a51;
+}
+
+.lettre_s6{
+    width: 100%;
+}
+
+.CE_s6{
+    width: 50%;
+    background-color: #c0c4cd;
+}
+.DF_s6{
+    width: 50%;
+    background-color: #223462;
+    height: 100px;
+}
+
+.bas_s6{
+    background-color: #10828c;
+    height: 50px;
+}
