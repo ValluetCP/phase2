@@ -194,7 +194,44 @@ footer{
     padding: 5px 10px;
 }
 
-/* *************** PAGE ZONING **********************/
+/*********************** PAGE LIEN ET MENU : DEBUT ******************/
+ul{
+    display:flex;
+    justify-content: center;
+    }
+    
+ul.lien1 li {
+    margin: 8px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #2c3e50;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 3px black;
+    font-family: oswald;
+}
+
+ul.lien1 li:hover{
+    box-shadow: none;
+}
+
+/* Section 2 (LIEN ET MENU )*/
+
+.sect2_lienEtMenu a{
+    color: #2980b9;
+}
+
+.sect2_lienEtMenu a:hover{
+    color: #90b8d3;
+}
+
+/* Section 3 (LIEN ET MENU )*/
+
+
+/*------------------- PAGE LIEN ET MENU : FIN --------------------*/
+
+/* *************** PAGE ZONING  : DEBUT**********************/
 
 /* --- Zoning 1 --- */
 .maquette{
@@ -384,3 +421,4 @@ section div{
     background-color: #10828c;
     height: 50px;
 }
+/*------------------- PAGE ZONING : FIN --------------------*/
