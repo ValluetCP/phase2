@@ -195,6 +195,9 @@ footer{
 }
 
 /* *************** PAGE LISTE : DEBUT **********************/
+
+/* ////// Section 1 (LISTE) ////// */
+
 .p_listes_sect1{
     margin: 0;
 }
@@ -218,16 +221,64 @@ footer{
     color: red;
 }
 
-/* Section 2 (LISTE )*/
+/* ////// Section 2 (LISTE) ////// */
 
 .p_listes_sect2 ol{
     margin-top: 10px;
 }
 
-/* Section 3 (LISTE )*/
-/* .continent{
 
-} */
+/* ////// Section 3 (LISTE) ////// */
+.continent li{
+    /* display:list-item; */
+    list-style-type: disc;
+}
+
+.continent>li>a{
+    /* display:list-item; */
+    list-style-type: disc;
+    color: black;
+}
+
+.pays li{
+    /* display:list-item; */
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.pays>li>a{
+    color: black;
+}
+.pays>li>a:hover{
+    background-color: red;
+    font-size: 200%;
+    box-shadow: grey 5px 10px 10px;
+    transition-duration: 1s;
+}
+
+.continent,
+.pays{
+    flex-direction: column;
+}
+
+.continent{
+    margin-top: 10px;
+}
+
+.continent ul{
+    display: none;
+}
+
+.continent li:hover ul {
+    display: block;
+  }
+
+
+  /* ////// Section 4 (LISTE) ////// */
+
+.p_listes_sect4_p{
+    margin-bottom: 10px;
+}
 
 /*------------------- PAGE LISTE : FIN --------------------*/
 
@@ -334,6 +385,8 @@ ul.lien4>li a{
 
 
 /*------------------- PAGE LIEN ET MENU : FIN --------------------*/
+
+
 
 /* *************** PAGE ZONING  : DEBUT**********************/
 
@@ -526,3 +579,4 @@ section div{
     height: 50px;
 }
 /*------------------- PAGE ZONING : FIN --------------------*/
+
