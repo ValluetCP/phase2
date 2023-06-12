@@ -35,6 +35,24 @@ vertical-align: baseline;
     text-align: center;
 } */
 
+#logo {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  button {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 350%;
+    color: #2d5c7f;
+  }
+
 
                         /* NAV */
 .ancreNav{
@@ -386,6 +404,35 @@ ul.lien4>li a{
 
 /*------------------- PAGE LIEN ET MENU : FIN --------------------*/
 
+/* *************** PAGE TABLEAU  : DEBUT **********************/
+
+table,
+tr,
+td{
+    border: 1px solid #007abc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tableau_sect1{
+    text-align: center;
+}
+
+td{
+    height: 30px;
+}
+
+thead,
+tfoot{
+    background-color: #6ACAFC;
+}
+
+table{
+    margin: auto;
+    width: 90%;
+}
+
+/*------------------- PAGE TABLEAU : FIN --------------------*/
 
 
 /* *************** PAGE ZONING  : DEBUT**********************/
