@@ -404,11 +404,41 @@ ul.lien4>li a{
 
 /*------------------- PAGE LIEN ET MENU : FIN --------------------*/
 
+
+
 /* *************** PAGE MULTIMEDIA  : DEBUT **********************/
-/* .video_txt,
-iframe{
-    width: 100%;
+.video_txt{
+    position: relative;
+    
+}
+
+.video_txt p{
+    background-color: rgba(255, 255, 255, 0.542);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    /* translate: transform (50%,50%); */
+    width: 500px;
+    bottom: 50%;
+    left: 25%;
+}
+
+/* .audio{
+    width: 80%;
+    margin: auto;
 } */
+
+.audio source{
+    margin: auto;
+}
+
+.mp3{
+    margin-bottom: 50px;
+}
+
+.audio p{
+    margin-bottom: 15px;
+}
 /*------------------- PAGE MULTIMEDIA : FIN --------------------*/
 
 /* *************** PAGE TABLEAU  : DEBUT **********************/
